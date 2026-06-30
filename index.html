@@ -137,6 +137,7 @@
         <p>Kérjük, legkésőbb <strong>július 15-ig</strong> válaszolj az alábbi kérdésekre.</p>
       </div>
       <form class="rsvp__form reveal" id="rsvp-form">
+        <input class="form-honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="field">
           <label for="name">Neved</label>
           <input id="name" name="name" type="text" autocomplete="name" placeholder="Teljes név" required>
@@ -147,7 +148,7 @@
           <label class="choice"><input type="radio" name="attendance" value="ceremony"><span><b>Igen, a szertartáson</b><small>Veletek leszek a ceremónián</small></span></label>
           <label class="choice"><input type="radio" name="attendance" value="no"><span><b>Sajnos nem</b><small>Lélekben veletek ünnepelek</small></span></label>
         </fieldset>
-        <button class="button button--light" type="submit">Válasz elküldése <span>→</span></button>
+        <button class="button button--light" type="submit"><span class="button__label">Válasz elküldése</span> <span>→</span></button>
         <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </section>
